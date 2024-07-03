@@ -56,18 +56,30 @@
     }
     .hero-txt{
         width: 100%;
-        padding: 0;
         justify-content: center;
         align-items: center;
+        padding-left: 0px;
     }
 }
-@media screen and (max-width:430px) {
+@media screen and (max-width:460px) {
     .hero-img img{
         height:150px;
         width:300px;
     }
-    .hero-txt{
-        text-align: center;
+    .hero-txt .big-txt{
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .hero-txt .small-txt{
+        font-size:24px;
+        line-height: 24px;
+    }
+    .hero-txt .med-txt{
+        font-size: 26px;
+        line-height: 26px;
+    }
+    .herosec .container{
+        justify-content: center;
     }
     .hero-img{
         padding: 0 10px;
