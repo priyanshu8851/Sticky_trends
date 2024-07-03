@@ -56,6 +56,7 @@
     }
     .hero-txt{
         width: 100%;
+        padding: 0;
         justify-content: center;
         align-items: center;
     }
@@ -65,7 +66,9 @@
         height:150px;
         width:300px;
     }
-    
+    .hero-txt{
+        text-align: center;
+    }
     .hero-img{
         padding: 0 10px;
     }
