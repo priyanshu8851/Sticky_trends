@@ -33,4 +33,11 @@
     .custom-area .container p{
         font-size: 18px;
     }
+    .custom-area .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:10px;
+        color:#000;
+    }
 }
