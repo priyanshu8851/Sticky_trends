@@ -1,0 +1,36 @@
+.custom-area{
+    width:100%;
+    min-height: 80px;
+    margin-top: 60px;
+    background-color: #D9D9D9;
+}
+.custom-area .container{
+    width:100%;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color:#000;
+}
+.custom-area .container p{
+    font-size: 24px;
+}
+.custom-icons{
+    display: flex;
+    gap:10px;
+    font-size: 26px;
+}
+.custom-icons a{
+    text-decoration: none;
+    color:#000;
+    transition: all ease 0.3s;
+}
+.custom-icons a:hover{
+    transform: translateY(-3px);
+}
+@media screen and (max-width:480px) {
+    .custom-area .container p{
+        font-size: 18px;
+    }
+}

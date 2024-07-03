@@ -1,0 +1,26 @@
+.product-area{
+    display: flex;
+    min-height: 450px;
+}
+.product-area .container{
+    width:100%
+}
+.heading{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 36px;
+    padding: 0 10px;
+
+}
+.product-cards{
+    justify-content: center;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    padding: 0 10px;
+    gap:20px
+}
