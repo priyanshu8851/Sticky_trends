@@ -1,5 +1,5 @@
 .project-card{
-    width:180px;
+    width:160px;
     height:230px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     display: flex;
@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: space-between;
     border-radius: 12px;
-    gap:10px;
+    gap: 8px;
     padding: 10px;
 }
 .project-card img{
