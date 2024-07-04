@@ -8,28 +8,28 @@ const Product = () => {
     {
       name: "46 MotoRacer",
       img: "/images/46.jpg",
-      amt: "20rs",
+      amt: "20/-",
     },
 
     {
       name: "AmongUs",
       img: "/images/AmongUs.jpg",
-      amt: "20rs",
+      amt: "20/-",
     },
     {
       name: "AngrySkull",
       img: "/images/AngrySkull.jpg",
-      amt: "20rs",
+      amt: "20/-",
     },
     {
       name: "Anxiety",
       img: "/images/Anxiety.WEBP",
-      amt: "20rs",
+      amt: "20/-",
     },
     {
       name: "Batman",
       img: "/images/batman.JPG",
-      amt: "20rs",
+      amt: "20/-",
     },
   ];
   return (
@@ -37,7 +37,7 @@ const Product = () => {
       <div className="product-area main">
         <div className="container">
           <div className="heading">
-            <span>Stickers</span>
+            <span>Sticke/-</span>
           </div>
           <div className="product-cards">
             {cardData.map((project, index) => {
