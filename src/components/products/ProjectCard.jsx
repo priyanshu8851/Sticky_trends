@@ -1,7 +1,9 @@
 import React from 'react'
 import "./projectcard.css"
 const ProjectCard = (props) => {
+  console.log(props.head)
   return (
+    
     <>
       <div className="project-card">
       <img src={props.img} alt="Project view" />

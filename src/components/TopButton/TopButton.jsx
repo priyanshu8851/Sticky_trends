@@ -1,18 +1,14 @@
-import React from 'react'
-import { IoIosArrowDropup } from "react-icons/io";
-import "./topButton.css"
+import React from "react";
+
+import "./topButton.css";
 const TopButton = () => {
   return (
     <>
-      <div className="topBtn">
-      <a href="#header">
-        <button>
-        <IoIosArrowDropup />
-        </button>
-      </a>
-      </div>
+      <button className="topBtn" onClick={()=>window.scrollTo(0 ,0)}>
+      <p>Top</p>
+      </button>
     </>
-  )
-}
+  );
+};
 
-export default TopButton
+export default TopButton;

@@ -1,6 +1,6 @@
 .project-card{
-    width: 300px;
-    min-height:300px;
+    width:150px;
+    min-height:150px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     display: flex;
     flex-direction: column;
@@ -13,11 +13,13 @@
     width:75%;
 }
 .project-card h3{
-    font-size: 22px;
+    font-size: 20px;
+    text-align: center;
     color: #000;
 }
 .project-card p{
-    font-size: 32px;
+    text-align: center;
+    font-size: 24px;
     font-weight: 600;
     color:red
 }

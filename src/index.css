@@ -21,7 +21,7 @@
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #D9D9D9; 
+  background: #D9D9D9; cursor: pointer;
 }
 *{
   margin: 0;
@@ -40,4 +40,23 @@
 }
 html {
   scroll-behavior: smooth;
+}
+.stikers{
+  width: 100%;
+  min-height: 500px;
+  /* background-color: #000; */
+}
+.stikers .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:50px;
+}
+.products{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
 }

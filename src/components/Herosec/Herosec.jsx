@@ -1,18 +1,17 @@
 import React from 'react'
 import "./herosec.css"
-import heroimg from "../../assets/heroimg.jpg";
+import heroimg from "../../assets/HeroArea.png";
+import { Link } from "react-router-dom";
+
 const Herosec = () => {
   return (
     <>
       <div className="herosec main">
         <div className="container">
           <div className="hero-txt">
-            <p className='big-txt'>We</p>
-            <p className='small-txt'>Make Stikers</p>
+            <p className='big-txt'>We Make "Stikers"</p>
             <p className='med-txt'>That You Love</p>
-          </div>
-          <div className="hero-img">
-            <img src={heroimg} alt="stickers" />
+            <Link to={"/stickers  "}>Explore More</Link>
           </div>
         </div>
       </div>

@@ -1,23 +1,28 @@
-import React from 'react'
-import Header from './components/header/Header'
-import Herosec from './components/Herosec/Herosec'
-import Tagline from './components/tagline/Tagline'
-import Product from './components/products/Product'
-import Custom from './components/custom/Custom'
-import Footer from './components/footer/Footer'
-import TopButton from './components/TopButton/TopButton'
+import React from "react";
+import Header from "./components/header/Header";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  BrowserRouter,
+} from "react-router-dom";
+import Home from "./Pages/Home";
+import Sticker from "./Pages/Sticker";
+
 const App = () => {
   return (
     <>
-      <Header/>
-      <Herosec/>
-      <Tagline/>
-      <Product/>
-      <Custom/>
-      <Footer/>
-      {/* <TopButton/> */}
-    </>
-  )
-}
+      <Router>
+        <Header />
 
-export default App
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/stickers" element={<Sticker/>} />
+          <Route path="/*" element={<h1>404: page not found </h1>} />
+        </Routes>
+      </Router>
+    </>
+  );
+};
+
+export default App;
