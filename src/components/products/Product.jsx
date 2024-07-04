@@ -8,28 +8,28 @@ const Product = () => {
     {
       name: "46 MotoRacer",
       img: "/images/46.jpg",
-      amt: "20/-",
+      amt: "Rs. 20/-",
     },
 
     {
       name: "AmongUs",
       img: "/images/AmongUs.jpg",
-      amt: "20/-",
+      amt: "Rs. 20/-",
     },
     {
       name: "AngrySkull",
       img: "/images/AngrySkull.jpg",
-      amt: "20/-",
+      amt: "Rs. 20/-",
     },
     {
       name: "Anxiety",
       img: "/images/Anxiety.WEBP",
-      amt: "20/-",
+      amt: "Rs. 20/-",
     },
     {
       name: "Batman",
       img: "/images/batman.JPG",
-      amt: "20/-",
+      amt: "Rs. 20/-",
     },
   ];
   return (
