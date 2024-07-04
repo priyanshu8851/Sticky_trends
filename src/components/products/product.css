@@ -16,6 +16,10 @@
     padding: 0 10px;
 
 }
+.heading span{
+    font-size: 32px;
+    font-weight: 650;
+}
 .product-cards{
     justify-content: center;
     margin: 60px 0 50px 0;

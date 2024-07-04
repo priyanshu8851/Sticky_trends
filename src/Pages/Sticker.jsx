@@ -9,7 +9,7 @@ const Sticker = (props) => {
       <div className="container">
         <div className="heading">
           <span>
-            Products
+            Stickers
           </span>
         </div>
         <div className="products">

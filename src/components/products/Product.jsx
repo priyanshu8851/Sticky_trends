@@ -37,7 +37,7 @@ const Product = () => {
       <div className="product-area main">
         <div className="container">
           <div className="heading">
-            <span>Our Products</span>
+            <span>Stickers</span>
           </div>
           <div className="product-cards">
             {cardData.map((project, index) => {
