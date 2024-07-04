@@ -23,6 +23,7 @@
     font-size: 70px;
     line-height: 70px;
     color:#1D1D1D;
+    text-shadow: 2px 3px rgba(53, 53, 53,0.3);
     font-weight: 700;
 }
 .hero-txt .med-txt{
