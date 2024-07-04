@@ -4,7 +4,6 @@ import Tagline from '../components/tagline/Tagline'
 import Product from '../components/products/Product'
 import Custom from '../components/custom/Custom'
 import Footer from '../components/footer/Footer'
-import TopButton from '../components/TopButton/TopButton'
 
 const Home = () => {
   return (
@@ -14,7 +13,6 @@ const Home = () => {
       <Product/>
       <Custom/>
       <Footer/>
-      <TopButton/>
     </>
   )
 }

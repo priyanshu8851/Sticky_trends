@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Home from "./Pages/Home";
 import Sticker from "./Pages/Sticker";
+import TopButton from "./components/TopButton/TopButton";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/stickers" element={<Sticker/>} />
           <Route path="/*" element={<h1>404: page not found </h1>} />
         </Routes>
+        <TopButton/>
       </Router>
     </>
   );
