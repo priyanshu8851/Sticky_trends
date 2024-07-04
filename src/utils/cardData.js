@@ -265,13 +265,142 @@ const projects = [
         amt:"Rs. 20/-"
     },
     {
-        name:"Power Drift",
+        name:"Powerdrift biker",
         img : '/images/PowerDriftBiker.JPG',
         amt:"Rs. 20/-"
+    },
+    {
+        name:"Powerdrift",
+        img:'/images/PowerDrift.PNG',
+        amt:"Rs. 20/-"
+    },
+    {
+        name:"Radio tape",
+        img:'/images/RadioTape.JPG',
+        amt:"Rs. 20/-"
+    },
+    {
+        name:"Red Among us",
+        img:'/images/RedAmong.jpg',
+        amt:"Rs. 20/-"
+    },
+    {
+        name:"Dog",
+        img:'/images/RuffLife.jpg',
+        amt:"Rs. 20/-"
+    },
+    {
+        name:"Sad skull",
+        img:'/images/SadSkull.jpg',
+        amt:"Rs. 20/-"
+    },
+    {
+        name:"Sarcasam",
+        img:'/images/Sarcasam.jpg',
+        amt:"Rs. 20/-"
+    },
+    {
+        name:"See U",
+        img:'/images/SeeU.WEBP',
+        amt:"Rs. 20/-"
+    },
+    {
+        name:"Shinchan",
+        img:'/images/ShinchanCar.JPGx   ',
+        amt:"Rs. 20/-"
+    },
+    {
+        name:"Shy skull",
+        img:'/images/ShySkull.jpg',
+        amt:"Rs. 20/-"
+    },
+    {
+        name:"Stylish Skull",
+        img:'/images/SkullStyle.jpg',
+        amt:"Rs. 20/-"
+    },
+    {
+        name:"Panda",
+        img:'/images/SleepingPanda.jpg',
+        amt:"Rs. 20/-"
+    },
+    {
+        name:"Lean",
+        img:'/images/SlideLeanTwist.jpg',
+        amt:"Rs. 20/-"
+    },
+    {
+        name:"Sociopath",
+        img:'/images/Sociopath.jpg',
+        amt:"Rs. 20/-"
     }
-    
-    
-    
+    ,
+    {
+        name:"Space suit",
+        img:'/images/SpaceSuit.jpg',
+        amt:"Rs. 20/-"
+    },
+    {
+        name:"Stark Industries",
+        img:'/images/StarkIndustries.jpg',
+        amt:"Rs. 20/-"
+    },
+    {
+        name:"Stoned",
+        img:'/images/Stoned.JPG',
+        amt:"Rs. 20/-"
+    },
+    {
+        name:"Stylish cat",
+        img:'/images/StylishCat.JPG',
+        amt:"Rs. 20/-"
+    }
+    ,
+    {
+        name:"Racer",
+        img:'/images/TrackRacer.jpg',
+        amt:"Rs. 20/-"
+    },
+    {
+        name:"Triangle patterns",
+        img:'/images/Triangles.jpg',
+        amt:"Rs. 20/-"
+    },
+    {
+        name:"Tuesday",
+        img:'/images/Tuesday.jpg',
+        amt:"Rs. 20/-"
+    },
+    {
+        name:"Waiter",
+        img:'/images/Waiter.jpg',
+        amt:"Rs. 20/-"
+    },
+    {
+        name:"Wandered",
+        img:'/images/Wandered.jpg',
+        amt:"Rs. 20/-"
+    },
+    {
+        name:"WanderLust",
+        img:'/images/Wanderlust.jpg',
+        amt:"Rs. 20/-"
+    },
+    {
+        name:"Wolf",
+        img:'/images/Wolf.jpg',
+        amt:"Rs. 20/-"
+    },
+    {
+        name:"Scientist",
+        img:'/images/WubbaLubba.jpg',
+        amt:"Rs. 20/-"
+    },
+    {
+        name:"Young girl",
+        img:'/images/YoungGirl.jpg',
+        amt:"Rs. 20/-"
+    }
     
 ]
 
