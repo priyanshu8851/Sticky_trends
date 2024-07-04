@@ -52,7 +52,7 @@ const Product = () => {
               );
             })}
           </div>
-          <Link to={"/stickers  "}>Show More</Link>
+          <Link to={"/stickers  "} onClick={()=>window.scrollTo(0 ,0)}> Show More</Link>
         </div>
       </div>
     </>

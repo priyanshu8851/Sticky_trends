@@ -1,12 +1,12 @@
 .herosec{
-    min-height: 450px;
+    min-height: 520px;
     background-image: url("../../assets/HeroArea.png");
     background-position: center;
+    background-repeat: no-repeat;
 }
 .herosec .container{
     display: flex;
     width:100%;
-    /* gap:10px; */
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -22,10 +22,14 @@
 .hero-txt .big-txt{
     font-size: 70px;
     line-height: 70px;
+    color:#1D1D1D;
+    font-weight: 700;
 }
 .hero-txt .med-txt{
     font-size: 36px;
     line-height: 36px;
+    color:#434343;
+    font-weight: 600;
 }
 .herosec .container a{
     background-color: #000;
@@ -36,7 +40,7 @@
     align-items: center;
     color:#fff;
     padding: 10px 20px;
-    border-radius: 32px;
+    border-radius: 8px;
     margin-top: 20px;
     opacity: 0.9;
 }
