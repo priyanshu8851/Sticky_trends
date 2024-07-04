@@ -1,6 +1,6 @@
 .project-card{
     width:150px;
-    min-height:150px;
+    height:220px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     display: flex;
     flex-direction: column;
