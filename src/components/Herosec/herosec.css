@@ -14,7 +14,7 @@
 .hero-txt{
     width:100%;
     gap:10px;
-    display: flex;
+    display: flex; 
     flex-direction: column;
     justify-content: center;
     align-items: center;

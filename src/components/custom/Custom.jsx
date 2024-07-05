@@ -9,7 +9,7 @@ const Custom = () => {
     <>
       <div className="custom-area main">
         <div className="container">
-            <p>Contact now</p>
+            <p>For Placing order Contact now </p>
             <div className="custom-icons" id='contact'>
                 <a href="tel:+919560474750" ><FaPhoneAlt /></a>
                 <a href="https://wa.me/qr/INJW72NEGELLN1" target="_blank"> <FaWhatsapp /></a>
