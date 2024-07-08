@@ -76,7 +76,7 @@ const projects = [
     },
     {
         name:"Conve/-e Shoes",
-        img : '/images/Conve/-e.jpg',
+        img : '/images/Converse.jpg',
         amt:"Rs. 20/-"
     },
     {
@@ -140,8 +140,8 @@ const projects = [
         amt:"Rs. 20/-"
     },
     {
-        name:"Gea/-",
-        img : '/images/Gea/-tructure.jpg',
+        name:"Gears",
+        img : '/images/GearStructure.jpg',
         amt:"Rs. 20/-"
     },
     {
@@ -265,7 +265,7 @@ const projects = [
         amt:"Rs. 20/-"
     },
     {
-        name:"Powerdrift biker",
+        name:"Rider",
         img : '/images/PowerDriftBiker.JPG',
         amt:"Rs. 20/-"
     },
@@ -306,7 +306,7 @@ const projects = [
     },
     {
         name:"Shinchan",
-        img:'/images/ShinchanCar.JPGx   ',
+        img:'/images/ShinchanCar.JPG',
         amt:"Rs. 20/-"
     },
     {
